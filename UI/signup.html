@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Signin form</title>
+  <link rel="stylesheet" href="signup.css" />
+  <link rel="stylesheet" href="../index.css" />
+</head>
+<body>
+  <div class="signup-page">
+    <div class="imgcontainer">
+      <img src="../logo.png" alt="Avatar" class="avatar" />
+      <h1>Stackoverflow</h1>
+      <span class="text">Stackoverflow enables users to</span>
+      <div class="about">
+        <ul>
+          <li>Post code related questions</li>
+          <li>Answer questions</li>
+          <li>Join the comunity by logging in</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="vertical-line"></div>
+    <form>
+      <h3>Signup</h3>
+      <div class="signup-form">
+        <div class="inputs">
+          <label for="uname"><b>First name</b></label>
+          <input type="text" placeholder="Enter first name" name="uname" required />
+        </div>
+        <div class="inputs">
+          <label for="uname"><b>Last name</b></label>
+          <input type="text" placeholder="Last name" name="uname" required />
+        </div>
+        <div class="inputs">
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required />
+        </div>
+        <div class="inputs">
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required />
+        </div>
+        <div>
+        <label for="password-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+  </div>
+        <div class="inputs">
+          <a href="../index.html" class="button"><button type="submit">SignUp</button></a>
+        </div>
+        <div class="inputs">
+          <label> <input type="checkbox" name="remember" /> Remember me </label>
+        </div>
+       
+      </div>
+      <div class="links">
+        <div class="register">Already have an account? <a href="../index.html">Login</a></div>
+       
+      </div>
+    </form>
+  </div>
+</body>
+</html>

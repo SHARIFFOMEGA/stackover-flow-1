@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login form</title>
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="StyleSheet" href="./index.css" />
+    <link rel="stylesheet" href="./UI/signup.css" />
+  </head>
+​
+  <body>
+    <div class="login-page">
+      <div class="imgcontainer">
+        <img src="logo.png" alt="Avatar" class="avatar" />
+        <h1>Stackoverflow</h1>
+          <span class="text">Stackoverflow enables users to</span>
+          <div class="about">
+          <ul>
+            <li>Post code related questions</li>
+            <li>Answer questions</li>
+            <li>Join the comunity by logging in</li>
+          </ul>
+        </div>
+      </div>
+      <div class="vertical-line"></div>
+      <form>
+        <h3>Login</h3>
+        <div class="login-form">
+          <div class="inputs">
+            <label for="uname"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required />
+          </div>
+          <div class="inputs">
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required />
+          </div>
+          <div class="inputs"><a href="UI/dashboard.html"><button type="submit">Login</abutto> 
+          </div>
+          <div class="inputs">
+            <label> <input type="checkbox" name="remember" /> Remember me </label>
+          </div>
+        </div>
+        <div class="links">
+          <div class="register">Don't have an account? <a href="./UI/signup.html">Register</a></div>
+          <span class="password"><a href="#">Forgot password?</a></span>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
